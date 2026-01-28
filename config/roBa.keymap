@@ -87,7 +87,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&msc 0 4>, <&msc 0 -4>;
+            sensor-bindings = <&msc 0 4 &msc 0 -4>;
         };
 
         FUNCTION {
@@ -116,7 +116,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&msc 0 4>, <&msc 0 -4>;
+            sensor-bindings = <&msc 0 4 &msc 0 -4>;
         };
 
         MOUSE {
